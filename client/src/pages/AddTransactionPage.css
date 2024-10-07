@@ -1,0 +1,42 @@
+/* client/src/pages/AddTransactionPage.css */
+
+.add-transaction-page {
+    max-width: 600px; /* Set a maximum width for the form */
+    margin: 40px auto; /* Center the form on the page */
+    padding: 20px; /* Add padding */
+    background-color: #6443d9; /* White background for contrast */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+.add-transaction-page h1 {
+    text-align: center; /* Center the heading */
+    color: #333; /* Dark color for heading */
+}
+
+.add-transaction-page form {
+    display: flex;
+    flex-direction: column; /* Stack form elements vertically */
+}
+
+.add-transaction-page input {
+    margin: 10px 0; /* Space between input fields */
+    padding: 10px; /* Padding inside input fields */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 16px; /* Increase font size for readability */
+}
+
+.add-transaction-page button {
+    padding: 10px; /* Padding for button */
+    background-color: #007bff; /* Blue background color */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Increase font size for readability */
+}
+
+.add-transaction-page button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}

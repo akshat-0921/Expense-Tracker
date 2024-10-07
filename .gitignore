@@ -1,0 +1,5 @@
+# Node.js dependencies
+./server/node_modules
+
+# Ignore environment variable files
+.env

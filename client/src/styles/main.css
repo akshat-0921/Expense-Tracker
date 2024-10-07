@@ -1,0 +1,65 @@
+/* client/src/styles/main.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    padding: 20px;
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 20px 0;
+  }
+  
+  label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input, select {
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  button {
+    padding: 5px 10px;
+    color: white;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+  }
+  

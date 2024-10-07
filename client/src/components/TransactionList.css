@@ -1,0 +1,52 @@
+/* client/src/components/TransactionList.css */
+
+.transaction-list {
+    margin: 20px 0;
+    text-align: center; /* Center the title */
+}
+
+.transaction-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the cards */
+}
+
+.transaction-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    width: 250px; /* Fixed width for cards */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left; /* Align text to the left */
+    transition: transform 0.2s; /* Smooth transform effect */
+}
+
+.transaction-card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+}
+
+.transaction-card h3 {
+    margin: 0;
+    color: #333; /* Title color */
+}
+
+.transaction-card p {
+    margin: 5px 0; /* Margin between paragraphs */
+    color: #555; /* Text color */
+}
+
+.delete-button {
+    padding: 10px;
+    background-color: #e74c3c; /* Red color for delete button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth background transition */
+}
+
+.delete-button:hover {
+    background-color: #c0392b; /* Darker red on hover */
+}
